@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+:root {
+  color-scheme: light;
+  font-family: 'Manrope', sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #f7f5f1;
+  color: #102a27;
+}
+
+a {
+  color: inherit;
+}
+
+h1, h2, h3, h4, p {
+  margin-top: 0;
+}
+
+.service-icon {
+  display: grid;
+  place-items: center;
+
+  width: 60px;
+  height: 60px;
+
+  border-radius: 18px;
+
+  background: black;
+  color:black;
+
+  font-size: 1.8rem;
+}
+
+.service-icon i {
+  color: black;
+  font-size: 1.8rem;
+}
+
+/* =========================
+   BOOKING FORM
+   ========================= */
+
+.contact-card {
+  background: linear-gradient(160deg, #0f3f3c, #163b3a);
+  border-radius: 30px;
+  padding: 2rem;
+  box-shadow: 0 24px 48px rgba(7, 28, 31, 0.18);
+  color: #fff;
+}
+
+.contact-card h3 {
+  margin: 0 0 1.5rem;
+  font-size: 1.8rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+
+  padding: 0.85rem 1rem;
+
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 12px;
+
+  background: rgba(255, 255, 255, 0.09);
+  color: #fff;
+
+  font-family: inherit;
+  font-size: 0.9rem;
+
+  outline: none;
+
+  transition:
+    border-color 0.2s ease,
+    background 0.2s ease;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: #f5a623;
+  background: rgba(255, 255, 255, 0.13);
+}
+
+.form-group select {
+  cursor: pointer;
+}
+
+.form-group select option {
+  color: #102a27;
+  background: #fff;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.contact-card .wide {
+  width: 100%;
+  margin-top: 0.4rem;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}

@@ -1,0 +1,410 @@
+<div class="site-shell">
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <p>Welcome to Zanzibar</p>
+      <div class="social-links" aria-label="Social media links">
+        <a
+          href="https://facebook.com"
+          target="_blank"
+          rel="noopener"
+          aria-label="Visit our Facebook page"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M13.5 22v-8h2.7l.4-3.2h-3.1V7.1c0-.9.3-1.6 1.7-1.6H17V2.6c-.3 0-1.3-.1-2.4-.1-2.4 0-4.1 1.5-4.1 4.2V10.8H8v3.2h2.5v8h3Z"
+            />
+          </svg>
+        </a>
+        <a
+          href="https://instagram.com"
+          target="_blank"
+          rel="noopener"
+          aria-label="Visit our Instagram page"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm5 3.2A4.8 4.8 0 1 1 7.2 12 4.8 4.8 0 0 1 12 7.2Zm0 2A2.8 2.8 0 1 0 14.8 12 2.8 2.8 0 0 0 12 9.2Zm5-3.1a1.1 1.1 0 1 1-1.1 1.1 1.1 1.1 0 0 1 1.1-1.1Z"
+            />
+          </svg>
+        </a>
+        <a
+          href="https://www.tiktok.com"
+          target="_blank"
+          rel="noopener"
+          aria-label="Visit our TikTok page"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M16.6 3c.4 1.5 1.5 2.7 3.1 3.2v2.8a7.4 7.4 0 0 1-3.1-.8v6.1a5.6 5.6 0 1 1-5.6-5.6c.3 0 .5 0 .8.1v2.9a2.8 2.8 0 1 0 1.8 2.7V3h3.1Z"
+            />
+          </svg>
+        </a>
+        <a
+          href="https://wa.me/255699522674"
+          target="_blank"
+          rel="noopener"
+          aria-label="Chat with us on WhatsApp"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M19.1 4.9A9.4 9.4 0 0 0 3.6 16L2.4 21l5.2-1.4a9.4 9.4 0 0 0 11.5-14.7ZM12 19.7a7.7 7.7 0 0 1-3.9-1.1l-.3-.2-3.1.8.8-3-.2-.3A7.7 7.7 0 1 1 12 19.7Zm4.2-5.8c-.2-.1-1.2-.6-1.4-.7-.2-.1-.4-.1-.6.1s-.7.7-.8.9-.3.1-.5 0A6.1 6.1 0 0 1 9.5 11c-.4-.7-.1-.9.1-1.3.1-.1.1-.3.1-.5s0-.3-.1-.4c-.1-.1-.6-1.5-.8-2s-.4-.4-.7-.4h-.6c-.2 0-.5.1-.8.3-.2.2-.9.9-.9 2.2s.9 2.6 1 2.8c.1.2 1.8 2.9 4.5 3.9.6.3 1 .5 1.4.6.6.2 1.2.2 1.6.1.5-.1 1.2-.5 1.4-1 .2-.5.2-1 .1-1.2-.1-.2-.4-.3-.6-.4Z"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a class="brand" href="#home" aria-label="Ngazi Tours home">
+        <img src="assets/images/logo.png" alt="Ngazi Tours logo" />
+        <div>
+          <strong>Ngazi Tours & Safaris</strong>
+        </div>
+      </a>
+
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#tours">Tours</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a
+        class="nav-cta"
+        href="https://wa.me/255699522674"
+        target="_blank"
+        rel="noopener"
+        >Book a service</a
+      >
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero container">
+      <div class="hero-copy">
+      
+        <h1>Discover Zanzibar with a team that knows it best.</h1>
+        <p class="lead">
+          Ngazi Tours helps visitors enjoy comfortable transfers, island
+          adventures and memorable cultural experiences in Zanzibar.
+        </p>
+
+        <div class="cta-row">
+          <a class="primary-btn" href="#contact">Plan my trip</a>
+          <a class="secondary-btn" href="#tours">View tours</a>
+        </div>
+
+        <div class="hero-stats">
+          @for (stat of stats; track stat.label) {
+            <div class="stat-box">
+              <strong>{{ stat.value }}</strong>
+              <span>{{ stat.label }}</span>
+            </div>
+          }
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="image-stack">
+          <img
+            class="main-image"
+            src="assets/images/img2.jpeg"
+            alt="Ngazi Tours Zanzibar beach tour"
+          />
+          <div class="floating-card">
+            <span class="card-label">Most loved</span>
+            <strong>Prison Island Day Tour</strong>
+            <!-- <em>From $35 per person</em> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow accent">What we offer</p>
+          <h2>Everything you need for a smooth Zanzibar experience.</h2>
+        </div>
+
+        <div class="service-grid">
+          @for (service of services; track service.title) {
+            <article class="service-card">
+              <div class="service-icon">
+                <i [class]="'bi ' + service.icon"></i>
+              </div>
+              <h3>{{ service.title }}</h3>
+              <p>{{ service.description }}</p>
+            </article>
+          }
+        </div>
+      </div>
+    </section>
+
+    <section class="about container" id="about">
+      <div class="about-copy">
+        <p class="eyebrow accent">About Ngazi Tours</p>
+        <h2>Your local guide for unforgettable Zanzibar memories.</h2>
+        <p>
+          Based in Kijangwani, Zanzibar, Ngazi Tours offers safe transport,
+          island excursions and custom travel support for visitors seeking
+          comfort, reliability and local expertise.
+        </p>
+        <ul class="feature-list">
+          <li>Professional airport transfer and pickup services.</li>
+          <li>Private and group tours across Zanzibar’s islands.</li>
+          <li>Friendly support for couples, families and travelers.</li>
+          <li>Custom itineraries tailored to guest preferences.</li>
+        </ul>
+      </div>
+
+      <div class="about-gallery">
+        <img
+          src="assets/images/img1.jpeg"
+          alt="Zanzibar coastal view"
+          class="tall"
+        />
+        <img
+          src="assets/images/img3.jpeg"
+          alt="Tourist group on island trip"
+          class="small"
+        />
+      </div>
+    </section>
+
+    <section class="tours" id="tours">
+      <div class="container">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="eyebrow accent">Popular experiences</p>
+            <h2>Choose your Zanzibar adventure.</h2>
+          </div>
+          <a class="text-link" href="#contact">Ask for custom itinerary</a>
+        </div>
+
+        <div class="tour-grid">
+          @for (tour of featuredTours; track tour.title) {
+            <article class="tour-card">
+              <div class="tour-image">
+                <img [src]="tour.image" [alt]="tour.title" />
+              </div>
+              <div class="tour-content">
+                <h3>{{ tour.title }}</h3>
+                <p>{{ tour.info }}</p>
+                <div class="tour-meta">
+                  <!-- <span>{{ tour.price }}</span> -->
+                  <a href="#contact">Reserve now</a>
+                </div>
+              </div>
+            </article>
+          }
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow accent">Gallery</p>
+          <h2>Moments from the Zanzibar coast.</h2>
+        </div>
+
+        <div class="gallery-grid">
+          @for (image of galleryImages; track image) {
+            <figure class="gallery-item">
+              <img [src]="image" alt="Zanzibar tour scenery" />
+            </figure>
+          }
+        </div>
+      </div>
+    </section>
+
+<section class="contact" id="contact">
+  <div class="container contact-grid">
+
+    <!-- Contact Information -->
+    <div class="contact-info">
+      <p class="eyebrow accent">Contact us</p>
+
+      <h2>Let’s plan your Zanzibar trip.</h2>
+
+      <p>
+        We help guests enjoy easy transfers, island excursions and memorable
+        moments from the moment they arrive in Zanzibar.
+      </p>
+
+      <div class="contact-list">
+
+        <div>
+          <span>Location</span>
+          <strong>Kijangwani, Zanzibar</strong>
+        </div>
+
+        <div>
+          <span>WhatsApp</span>
+          <strong>+255 699 522 674</strong>
+          <strong>+255 777 436 194</strong>
+        </div>
+
+        <div>
+          <span>Email</span>
+          <strong>info&#64;ngazitours.com</strong>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- Booking Form -->
+    <div class="contact-card">
+
+      <h3>Book Your Tour</h3>
+
+      <form>
+
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your full name"
+          />
+        </div>
+
+        <div class="form-row">
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your email"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone / WhatsApp</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="+255..."
+            />
+          </div>
+
+        </div>
+
+        <div class="form-row">
+
+          <div class="form-group">
+            <label for="tour">Select Tour</label>
+
+            <select id="tour" name="tour">
+              <option value="">Choose a tour</option>
+              <option value="stone-town">
+                Historical Stone Town Tour
+              </option>
+              <option value="spices-fruits">
+                Spices & Fruits Tasting Tour
+              </option>
+              <option value="city-spice">
+                City & Spice Excursion
+              </option>
+              <option value="prison-island">
+                Prison Island Tour
+              </option>
+              <option value="jozani">
+                Jozani Forest Tour
+              </option>
+              <option value="kizimkazi">
+                Kizimkazi Tour
+              </option>
+              <option value="cultural">
+                Zanzibar Cultural Excursion
+              </option>
+              <option value="safari-blue">
+                Safari Blue Excursion
+              </option>
+              <option value="sunset-dhow">
+                Sunset Dhow Cruise
+              </option>
+            </select>
+
+          </div>
+
+          <div class="form-group">
+            <label for="date">Preferred Date</label>
+
+            <input
+              type="date"
+              id="date"
+              name="date"
+            />
+          </div>
+
+        </div>
+
+        <div class="form-group">
+
+          <label for="guests">Number of Guests</label>
+
+          <select id="guests" name="guests">
+            <option value="">Select number of guests</option>
+            <option value="1">1 Guest</option>
+            <option value="2">2 Guests</option>
+            <option value="3">3 Guests</option>
+            <option value="4">4 Guests</option>
+            <option value="5">5 Guests</option>
+            <option value="6">6 Guests</option>
+            <option value="7">7 Guests</option>
+            <option value="8">8 Guests</option>
+            <option value="9">9 Guests</option>
+            <option value="10+">10+ Guests</option>
+          </select>
+
+        </div>
+
+        <div class="form-group">
+
+          <label for="message">Additional Message</label>
+
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            placeholder="Tell us anything we should know about your trip..."
+          ></textarea>
+
+        </div>
+
+        <button type="submit" class="primary-btn wide">
+          Send Booking Request
+        </button>
+
+      </form>
+
+    </div>
+
+  </div>
+</section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="assets/images/logo.png" alt="Ngazi Tours logo" />
+        <div>
+          <strong>Ngazi Tours</strong>
+          <span>Zanzibar experiences made easy</span>
+        </div>
+      </div>
+      <p>© 2026 Ngazi Tours. All rights reserved.</p>
+    </div>
+  </footer>
+</div>
